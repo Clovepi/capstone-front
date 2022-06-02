@@ -1,0 +1,53 @@
+.homepage {
+    text-align: center;
+
+    .see-products {
+        color: black;
+        margin-top: 50px;
+        font-size: 25px;
+        background-image: url("../../static/assets/images/banner.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: top;
+        height: 100%;
+
+        h1 {
+            margin-bottom: -280px;
+            // font-family: 'Lobster Two', cursive;
+        }
+    }
+
+    .see-customers {
+        margin-top: 10px;
+        font-size: 15px;
+
+        h1 {
+            color: pink;
+            margin-bottom: 50px;
+        }
+
+        .reviews {
+            padding: 30px;
+            border: 3px solid #ffc0cb;
+            margin: 70px 300px;
+            box-shadow: 0px 0px 30px 24px #FFE2E7;
+            transition: 0.5s;
+            font-size: 2rem;
+
+            .user-icons {
+                color: pink;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: 'Lobster Two', cursive;
+                color: pink;
+            }
+
+            p {
+                font-size: 20px;
+                padding-top: 10px;
+            }
+        }
+    }
+}

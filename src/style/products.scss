@@ -1,0 +1,62 @@
+.products-page {
+    .rendered-items {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        padding: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+
+        img {
+            height: 500px;
+        }
+    }
+}
+
+.all-products {
+    border: 3px solid pink;
+    border-radius: 5px;
+    padding: 10px;
+    // box-shadow: 0px 0px 44px 3px rgba(0,0,0,0.14);
+
+    .title {
+        font-size: 3.5em;
+        font-family: 'Lobster Two', cursive;
+        color: rgb(250, 156, 171);
+        padding: 10px;
+        text-decoration: underline;
+    }
+
+    .image {
+
+        img {
+            height: 500px;
+        }
+    }
+
+    .description {
+        font-size: 2em;
+        font-style: italic;
+        padding: 10px;
+    }
+
+    .price {
+        font-size: 25px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .cart-btn {
+        font-size: 25px;
+        padding: 10px 60px;
+        background-color: rgb(250, 156, 171);
+        border: pink;
+        border-radius: 5px;
+        cursor: pointer;
+
+        :hover {
+            border: rgb(250, 156, 171);
+        }
+    }
+}

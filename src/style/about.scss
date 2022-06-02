@@ -1,0 +1,45 @@
+.about-us {
+    // text-align: center;
+    background-image: url("../../static/assets/images/mission.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1300px 650px;
+
+    h3 {
+        font-family: 'Lobster Two', cursive;
+        color: pink;
+        font-size: 4em;
+        margin: 30px;
+        padding-top: 50px;
+    }
+
+    .about-sac {
+        font-size: 2em;
+        margin: 30px;
+        margin-right: 600px;
+        background-color: rgb(255, 226, 231);
+        padding: 20px;
+    }
+
+    h4 {
+        font-family: 'Lobster Two', cursive;
+        color: pink;
+        font-size: 4em;
+        margin: 50px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mission {
+        font-size: 2em;
+        margin: 30px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 600px;
+        background-color: rgb(255, 226, 231);
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+}
